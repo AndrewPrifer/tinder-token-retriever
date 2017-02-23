@@ -20,7 +20,7 @@ def get_access_token(email, password):
     f = s.get_form()
     s.submit_form(f, submit=f.submit_fields['__CONFIRM__'])
 
-    ## get access token from the html response
+    ## get access token from the http response
     access_token = re.search(r"access_token=([\w\d]+)", s.response.content.decode()).groups()[0]
     return access_token
 
