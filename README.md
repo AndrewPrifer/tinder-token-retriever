@@ -3,8 +3,9 @@ Generate access token for Tinder using credentials from Facebook
 
 ### Argparse Usage
 
+- Run `python3 get_token.py -h` to see the usage.
+
 ```console
-gavy42@jarvis:~/Desktop/tinder-token-retriever$ python3 get_token.py  -h
 usage: get_token.py [-h] [-u] [-e EMAIL] [-p PASSWORD] [-fb FBAUTH]
                     [-ua USERAGENT]
 
